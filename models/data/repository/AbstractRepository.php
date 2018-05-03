@@ -38,7 +38,7 @@ abstract class AbstractRepository
     }
 
     /**
-     * Returns a single for given conditions.
+     * Returns a single ActiveRecord entry for given conditions.
      *
      * @param array $conditions
      * @return null|ActiveRecord
