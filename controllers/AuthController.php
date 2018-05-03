@@ -47,7 +47,7 @@ class AuthController extends Controller
 
     /**
      * Action for handling user authentication and login.
-     * Displays the login form and triggers the login process the user submits the form.
+     * Displays the login form and triggers the login process.
      *
      * @return string|\yii\web\Response
      * @throws \yii\base\InvalidConfigException
