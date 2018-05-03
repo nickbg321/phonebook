@@ -87,7 +87,7 @@ class UserTest extends Unit
         $this->setFindIdentityRepoMock();
         $user = User::findIdentity(1);
 
-        $this->specify('Valid auth key validation validation passes.', function () use ($user) {
+        $this->specify('Valid auth key passes the validation process.', function () use ($user) {
             expect($user->validateAuthKey('test auth key'))->true();
         });
 
@@ -101,7 +101,7 @@ class UserTest extends Unit
         $this->setFindIdentityRepoMock();
         $user = User::findIdentity(1);
 
-        $this->specify('Valid password validation validation passes.', function () use ($user) {
+        $this->specify('Valid password passes the validation process.', function () use ($user) {
             expect($user->validatePassword('admin'))->true();
         });
 
