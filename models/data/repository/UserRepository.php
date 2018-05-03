@@ -11,7 +11,7 @@ use app\models\data\UserData;
 class UserRepository extends AbstractRepository
 {
     /**
-     * Returns a single UserData entry for given a access token.
+     * Returns a single UserData entry for a given access token.
      *
      * @param string $token
      * @return UserData|null
